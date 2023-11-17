@@ -1,12 +1,14 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
+title: Teaching
 description: Materials for courses you taught. Replace this text with your description.
 nav: true
 nav_order: 5
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+### 2.C27 Computational Imaging: Physics and Algorithms (*Fall 2023*)
 
-Organize your courses by years, topics, or universities, however you like!
+TA with Prof. [George Barbastathis](https://optics.mit.edu/) and Prof. [Sixian You](https://www.rle.mit.edu/yougroup/)
+
+{% include figure.html path='assets/img/CI.png' class="img-fluid z-depth-1 rounded" width="90%"-%}
