@@ -2,9 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. 
-Department of Electrical Engineering and Computer Science
-Massachusetts Institute of Technology
+subtitle: Department of Electrical Engineering and Computer Science <br> Massachusetts Institute of Technology
 
 profile:
   align: right

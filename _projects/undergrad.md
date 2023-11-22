@@ -1,12 +1,32 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
-importance: 3
+title: Undergrad Research
+description: Dimensionality Reduction for RIS-aided Wireless Communications
+img: assets/img/project/undergrad/undergrad.png
+importance: 1
 category: work
+related_publications: einstein1956investigations, einstein1950meaning
 ---
+
+I spent 2.5 wonderful years in Broadband Wireless Communication and Signal Processing Laboratory led by Prof. [Linglong Dai](http://oa.ee.tsinghua.edu.cn/dailinglong/), where I finished my thesis on *Dimensionality Reduction for RIS-aided Wireless Communications*, and I was fortunate to be mentored by [Zijian Zhang](https://zhangzij15.github.io/).
+
+<div class="section" style="margin-top: 20px;">
+    <b style="font-size: 24px;">Introduction</b>
+    <div class="row">
+        <div class="col-md-6">
+            Reconfigurable intelligent surface (RIS) is a near-passive antenna array composed of a large number of elements. It can actively reconfigure the wireless channels by properly adjusting the phase-shifts of the incident electromagnetic waves. Benefiting from its characteristics of low cost and power consumption, RIS has been envisioned as a promising technique for future wireless communications. RIS is able to achieve high ar-ray gain that is proportional to the square of the number of RIS elements, which encourages RIS to be designed as large as possible. Although high-dimensional RIS enhances the performance of the system, it also brings about challenges considering size, power consumption, and pilot overhead. Thus, in my undergraduate thesis, we focus on the dimensionality-reduced design and validation of RIS-aided communications, preserving the high array gain of RIS while also addressing challenges in system design.
+        </div>
+
+        <div class="col-md-6">
+            {% include figure.html path="assets/img/project/undergrad/RIS.png" title="Multiphoton Microscopy" class="img-fluid " style="width: 80px; height: auto;"%}
+            <div class="caption" style="text-align: left;">
+                <a href="https://www.ni.com/en/innovations/case-studies/23/tsinghua-university-low-power-communications-ris-ai-6g.html">[Source]</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
