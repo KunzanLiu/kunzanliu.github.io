@@ -32,3 +32,19 @@
 "Planck":
   - firstname: ["Max"]
     url: https://en.wikipedia.org/wiki/Max_Planck
+
+"Zhang":
+  - firstname: ["Zijian"]
+    url: https://zhangzij15.github.io
+
+"Dai":
+  - firstname: ["Linglong"]
+    url: http://oa.ee.tsinghua.edu.cn/dailinglong/
+
+"Xu":
+  - firstname: ["Shenheng"]
+    url: http://web.ee.tsinghua.edu.cn/xushenheng/en/index.htm
+
+"Yang":
+  - firstname: ["Fan"]
+    url: https://www.ee.tsinghua.edu.cn/en/info/1061/1263.htm
