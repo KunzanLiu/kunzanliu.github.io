@@ -4,7 +4,7 @@ permalink: /teaching/
 title: Teaching
 description:
 nav: true
-nav_order: 5
+nav_order: 4
 ---
 
 ### 2.C27 Computational Imaging: Physics and Algorithms (*Fall 2023*)
