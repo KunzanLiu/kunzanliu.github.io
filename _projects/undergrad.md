@@ -5,10 +5,10 @@ description: Dimensionality Reduction for RIS-aided Wireless Communications
 img: assets/img/project/undergrad/undergrad.png
 importance: 1
 category: work
-related_publications: einstein1956investigations, einstein1950meaning
+related_publications: liu2022compact,liu2022active,zhu2023sensing
 ---
 
-I spent 2.5 wonderful years in Broadband Wireless Communication and Signal Processing Laboratory led by Prof. [Linglong Dai](http://oa.ee.tsinghua.edu.cn/dailinglong/), where I finished my thesis on *Dimensionality Reduction for RIS-aided Wireless Communications*, and I was fortunate to be mentored by [Zijian Zhang](https://zhangzij15.github.io/).
+I spent 2.5 wonderful years in Broadband Wireless Communication and Signal Processing Laboratory led by Prof. [Linglong Dai](http://oa.ee.tsinghua.edu.cn/dailinglong/), where I finished my thesis on *Dimensionality Reduction for RIS-aided Wireless Communications*, and I was fortunate to be mentored by [Zijian Zhang](https://zhangzij15.github.io/) and to work with my friend [Yuhao Chen](https://hericenes.github.io/yuhaochen.github.io/).
 
 ## Introduction
 Reconfigurable intelligent surface (RIS) is a near-passive antenna array composed of a large number of elements. It can actively reconfigure the wireless channels by properly adjusting the phase-shifts of the incident electromagnetic waves. Benefiting from its characteristics of low cost and power consumption, RIS has been envisioned as a promising technique for future wireless communications. RIS is able to achieve high array gain that is proportional to the square of the number of RIS elements, which encourages RIS to be designed as large as possible. Although high-dimensional RIS enhances the performance of the system, it also brings about challenges considering size, power consumption, and pilot overhead. Thus, in my undergraduate thesis, we focus on the dimensionality-reduced design and validation of RIS-aided communications, preserving the high array gain of RIS while also addressing challenges in system design.

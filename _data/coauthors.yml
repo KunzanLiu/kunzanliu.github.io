@@ -52,3 +52,27 @@
 "Hanzo":
   - firstname: ["Lajos"]
     url: https://www-mobile.ecs.soton.ac.uk/newcomms/?q=people/lh
+
+"You":
+  - firstname: ["Sixian"]
+    url: https://yougroup.mit.edu/
+
+"Ye":
+  - firstname: ["Cassandra Tong"]
+    url: https://cassandra-t-ye.github.io/
+
+"Monakhova":
+  - firstname: ["Kristina"]
+    url: https://kristinamonakhova.com/
+
+"Wang":
+  - firstname: ["Fan"]
+    url: https://www.wanglab-neuro.org/
+
+"Griffith":
+  - firstname: ["Linda"]
+    url: https://lgglab.mit.edu/
+
+"Angelopoulos":
+  - firstname: ["Anastasios"]
+    url: https://people.eecs.berkeley.edu/~angelopoulos/
