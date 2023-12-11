@@ -21,7 +21,7 @@ nav_order: 5
 
 ## Talks
 
-* **May 2024** Kunzan Liu *et al.*, "The color of truth". 
+* **May 2024** Kunzan Liu *et al.*, "The Color of Truth: Cellular Dynamics in Intact Tissue", **.
 * **Jan 2024** Kunzan Liu, Tong Qiu, Honghao Cao, Linda Griffith, Fan Wang, and Sixian You, "High-Speed Simultaneous Label-Free Autofluorescence-Multiharmonic (hSLAM) Microscopy for Multicellular Dynamics", *SPIE Photonics West*.
 * **Sep 2023** Kunzan Liu, "High-Peak-Power, Visible-to-SWIR, and Tunable Fiber Source for Multiplex Nonlinear Microscopy", *Wellman Optica Student Chapter (invited)*.
 * **Aug 2023** Kunzan Liu, Tong Qiu, Honghao Cao, and Sixian You, "Adaptive Fiber Source for High-Speed Label-Free Multimodal Multiphoton Microscopy", *Optica Imaging Congress*.
