@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Undergrad Research
-description: Dimensionality reduction for RIS-aided wireless communications
-img: assets/img/project/undergrad/undergrad.png
-importance: 4
+title: human endometrium
+description: Near-real-time assessment of human endometrium enabled by deep multiplexed label-free microscopy
+img: assets/img/project/endo/endo.png
+importance: 1
 category: work
 related_publications: liu2022compact,liu2022active,zhu2023sensing
 ---

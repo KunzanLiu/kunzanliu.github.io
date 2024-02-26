@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Undergrad Research
-description: Dimensionality reduction for RIS-aided wireless communications
-img: assets/img/project/undergrad/undergrad.png
-importance: 4
+title: high peak power light source
+description: High peak power light source for faster and deeper imaging
+img: assets/img/project/source/deep.png
+importance: 2
 category: work
-related_publications: liu2022compact,liu2022active,zhu2023sensing
+related_publications: qiu2023spatiotemporal
 ---
 
 I spent 2.5 wonderful years in Broadband Wireless Communication and Signal Processing Laboratory led by Prof. [Linglong Dai](http://oa.ee.tsinghua.edu.cn/dailinglong/), where I finished my thesis on *Dimensionality Reduction for RIS-aided Wireless Communications*, and I was fortunate to be mentored by [Zijian Zhang](https://zhangzij15.github.io/) and to work with my friend [Yuhao Chen](https://hericenes.github.io/yuhaochen.github.io/).

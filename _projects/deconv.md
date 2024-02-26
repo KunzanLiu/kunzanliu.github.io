@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Undergrad Research
-description: Dimensionality reduction for RIS-aided wireless communications
-img: assets/img/project/undergrad/undergrad.png
-importance: 4
+title: isotropic microscopy
+description: 3D isotropic microscopy enabled by surgically fine-tuned deconvolution network
+img: assets/img/project/deconv/deconv.png
+importance: 3
 category: work
 related_publications: liu2022compact,liu2022active,zhu2023sensing
 ---
