@@ -70,8 +70,12 @@
     url: https://www.wanglab-neuro.org/
 
 "Griffith":
-  - firstname: ["Linda"]
+  - firstname: ["Linda", "Linda G."]
     url: https://lgglab.mit.edu/
+
+"Kamm":
+  - firstname: ["Roger", "Roger D."]
+    url: http://web.mit.edu/meche/mb/
 
 "Angelopoulos":
   - firstname: ["Anastasios"]
