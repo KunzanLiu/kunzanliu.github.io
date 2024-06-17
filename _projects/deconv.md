@@ -1,66 +1,43 @@
 ---
 layout: page
-title: isotropic microscopy
-description: 3D isotropic microscopy enabled by surgically fine-tuned deconvolution network
+title: Isotropic 3D Microscopy
+description: System- and Sample-agnostic Isotropic 3D Microscopy by Weakly Physics-informed, Domain-shift-resistant Axial Deblurring
 img: assets/img/project/deconv/deconv.png
 importance: 3
 category: work
-related_publications: liu2022compact,liu2022active,zhu2023sensing
+related_publications: han2024system
 ---
 
-I spent 2.5 wonderful years in Broadband Wireless Communication and Signal Processing Laboratory led by Prof. [Linglong Dai](http://oa.ee.tsinghua.edu.cn/dailinglong/), where I finished my thesis on *Dimensionality Reduction for RIS-aided Wireless Communications*, and I was fortunate to be mentored by [Zijian Zhang](https://zhangzij15.github.io/) and to work with my friend [Yuhao Chen](https://hericenes.github.io/yuhaochen.github.io/).
+This work is in under review in *Nature Communications*.
 
 ## Introduction
-Reconfigurable intelligent surface (RIS) is a near-passive antenna array composed of a large number of elements. It can actively reconfigure the wireless channels by properly adjusting the phase-shifts of the incident electromagnetic waves. Benefiting from its characteristics of low cost and power consumption, RIS has been envisioned as a promising technique for future wireless communications. RIS is able to achieve high array gain that is proportional to the square of the number of RIS elements, which encourages RIS to be designed as large as possible. Although high-dimensional RIS enhances the performance of the system, it also brings about challenges considering size, power consumption, and pilot overhead. Thus, in my undergraduate thesis, we focus on the dimensionality-reduced design and validation of RIS-aided communications, preserving the high array gain of RIS while also addressing challenges in system design.
+
+Three-dimensional (3D) sub-cellular imaging is highly desirable in biomedical research, as it reveals the intricate spatial organization of organelles, cells, and biological networks. Achieving high-resolution sub-cellular imaging across all three dimensions is crucial for accurately understanding complex biological processes, such as neural circuits, disease pathogenesis, and cellular responses to drugs. However, the fundamental diffraction limit of optical microscopy results in axial resolution that is 2–5 times worse than lateral resolution. This resolution disparity severely hinders isotropic 3D imaging, limiting our ability to faithfully represent the true 3D structure of biological samples and fully realize the potential of 3D imaging in scientific research.
 
 <div class="col-md-12" style="text-align: center;"> 
-{% include figure.html path='assets/img/project/undergrad/RIS.png' class="img-fluid z-depth-1 rounded" width="50%"-%}
+{% include figure.html path='assets/img/project/deconv/generalizability.png' class="img-fluid z-depth-1 rounded" width="100%"-%}
  </div>
  <div class="caption">
-    An RIS prototype with 2304 reflection units. <a ref="https://www.ni.com/en/innovations/case-studies/23/tsinghua-university-low-power-communications-ris-ai-6g.html">[Source]</a>
+    Fundamental diffraction limit in 3D imaging across diverse systems and samples.
 </div>
 
-## Challenge 1: mismatch in size
+While recent advances in microscopy theory and instrumentation enable isotropic 3D imaging with certain specialized systems, their reliance on specific hardware, contrast mechanisms, and/or sample preparation limits widespread adoption, particularly for thick, living, and intact biosystems. To make isotropic imaging more accessible across different microscopy modalities, algorithmic approaches seek to address the inverse problem of axial deblurring. In recent years, deconvolution methods based on deep neural networks (DNN), given their effective and flexible learning of data priors, have shown unprecedented performance compared to classical deconvolution methods, such as Richardson-Lucy and fast iterative shrinkage thresholding algorithm (FISTA), on two-dimensional (2D) deconvolution. However, axial resolution restoration is significantly more challenging since acquiring isotropic 3D imaging data as ground truth is impractical for most microscopes, especially in living tissues, making supervised learning methods unsuitable for general isotropic 3D imaging. Despite the existence of a few systems capable of collecting paired isotropic 3D imaging data and generously sharing it, the potential for pre-training a network and generalizing to diverse microscopes and samples is hampered by the significant domain shifts between training and target domains inherent in biomedical imaging.
 
-To tackle the problem of mismatch in size for high-dimensional RIS-aided
-system, we propose the concept of user-side RIS (US-RIS) that includes a multi-layer
-structure to save the space. We reveal the phenomenon that multi-layer RIS is able to
-adjust the magnitude of the signal, based on which we develop a phase-magnitude precoding design to maximize the achievable SNR. Simulation results
-verify the superiority of our proposed US-RIS that can enhance the uplink transmission
-of the user.
+Domain shift is particularly pronounced in scientific imaging compared to general computer vision, due to the high heterogeneity of microscopy modalities, system properties, sample variation across species and tissues, and the exploratory nature (unseen anomaly detection) of microscopy data. To address these challenges and enable general isotropic 3D imaging, unsupervised generative adversarial network (GAN)-based methods have been proposed to enable deblurring without matched axial image pairs. However, the inherent instability of saddle-point optimization in GAN-based methods leaves them vulnerable to network collapse, potentially generating hallucinations and inconsistencies. Supervised methods leverage similarities between lateral and axial data distributions and employ explicit blurring forward models to achieve high-fidelity isotropic imaging without paired in-distribution data. However, the practical applications of single-stack isotropic recovery using supervised methods are limited for two primary reasons. First, these methods rely on an explicit point-spread function (PSF) model that is assumed to be precisely matched and consistent across the entire imaging volume. In reality, factors such as field curvature, misalignment, and tissue scattering contribute to optical aberrations, resulting in spatially varying PSFs that are sample- and system-dependent, making real-time calibration difficult. This modeling challenge is further exacerbated by noise, especially in low-light conditions. Second, self-supervised methods require assumptions of lateral-axial similarity within single-stack data to learn axial deblurring from synthetic lateral deblurring. While this assumption holds for certain cell and tissue structures (e.g., neurons in the cortex and sinusoids in the liver, as shown in prior axial deblurring works), it breaks down in tissues with high directionality, polarity, or anisotropy, which are common in biological systems such as developing embryos, epithelial glands, and collagen fibers in the extracellular matrix. These challenges are particularly pronounced in label-free imaging of thick heterogeneous tissues, where assumptions about data distribution (e.g. sparsity, label-specific distribution, and lateral-axial similarity) and system priors (e.g. independent and identically distributed (i.i.d.) noise, and linear shift-invariant (LSI) PSFs) are often invalid.
 
-## Challenge 2: high power consumption
 
-To tackle the problem of high power consumption for high-dimensional
-RIS-aided system, we propose the concept of sub-connected active RIS, where
-multiple RIS elements share a same power amplifier to reduce the number of PAs
-for lower power consumption. We theoretically analyze the benefit of the sub-connected active
-RIS, and develop a hybrid precoding design to maximize the energy efficiency of
-the system. Simulation results verify that our proposed sub-connected active RIS as well as the
-precoding design can achieve higher EE in RIS-aided system.
-
-## Challenge 3: large number of pilot overhead
-
-To tackle the problem of large number of pilot overhead for high-dimensional RIS-aided system, we propose the concept of sensing RIS, where a power
-detector is additionally integrated in each RIS element for detecting the magnitude of the
-signal. We conceive a signaling method to induce a interference random field (IRF), and
-propose a corresponding channel state information (CSI) acquisition method. Simulation
-results verify that our proposed solution can achieve dimension-independent CSI acquisition in RIS-aided system, which substantially reduces the pilot overhead. We further
-set up a hardware validation experiment that preliminarily demonstrates the practicability of our proposed solution.
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/project/undergrad/3.png" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/project/undergrad/1.png" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/project/undergrad/2.png" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Left: US-RIS. Middle: sub-connected active RIS. Right: sensing RIS.
+## Principles of SSAI-3D
+<div class="col-md-12" style="text-align: center;"> 
+{% include figure.html path='assets/img/project/deconv/concept.png' class="img-fluid z-depth-1 rounded" width="100%"-%}
+ </div>
+ <div class="caption">
+    Concept of the weakly physics-informed, domain-shift-resistant axial beblurring for sample- and system-agnostic isotropic 3D (SSAI-3D) microscopy.
 </div>
 
-This thesis was recognized as *Excellent Bachelor Dissertation of Beijing* and *Excellent Bachelor Dissertation of Tsinghua University* in 2022.
+## Mechanism 1: Sparse fine-tuning for robustness in sample domain shift
+
+## Mechanism 2: Self-supervised dataset generation for robustness in system aberrations and noise
+
+## Demo 1: Neuron extraction in mouse brain using light-sheet microscopy
+
+## Demo 2: DNA analysis in mitochondria using confocal microscopy
