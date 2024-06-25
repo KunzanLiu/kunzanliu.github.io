@@ -11,6 +11,11 @@ nav_order: 5
 > **2022-present** Department of Electrical Engineering and Computer Science, MIT\
 > Advisor: Prof. [Sixian You](https://www.rle.mit.edu/yougroup/)
 
+> **2022-2024** Department of Electrical Engineering and Computer Science, MIT\
+> M.S. Degree: Electrical Engineering and Computer Science\
+> Thesis: Deep and Dynamic Metabolic and Structural Imaging in Living Tissues\
+> Advisor: Prof. [Sixian You](https://www.rle.mit.edu/yougroup/)
+
 > **2018-2022** Department of Electronic Engineering, Tsinghua University\
 > B.E. Degree: Electronic Engineering\
 > Minor Degree: Biomedical Engineering\
