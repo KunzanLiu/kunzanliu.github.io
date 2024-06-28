@@ -33,9 +33,10 @@ nav_order: 5
 
 ## Awards
 
+* 2024, MathWorks Fellowship
 * 2024, MIT Koch Institute Image Awards
 * 2023, BioMAN Summit Best Student Poster (1st)
-* 2022, MIT Presidential Graduate Fellowship Award
+* 2022, MIT Presidential Fellowship
 * 2022, Excellent Bachelor Dissertation of Beijing
 * 2022, Excellent Graduates of Beijing
 * 2022, Grand Prize in Tsinghua Challenge Cup
