@@ -8,26 +8,64 @@ category: work
 related_publications: liu2024deep,qiu2024spectral
 ---
 
-This work is in under review in *Science Advances*.
+## Overview
 
-## Introduction
+<div class="col-md-12" style="text-align: center;"> 
+{% include figure.html path='assets/img/project/source/3Dv.png' class="img-fluid z-depth-1 rounded" width="100%"-%}
+ </div>
+ <div class="caption">
+    Metabolic and structural imaging of the entire 500-μm-deep living blood-brain barrier microfluidic model, comprising vascular endothelial cells, pericytes, and astrocytes.
+</div>
 
-Capturing the metabolic dynamics of intact and living biosystems is essential in biomedicine from fundamental research to clinical pathology. Label-free two-photon autofluorescence (2PAF) imaging of NAD(P)H and FAD enables non-destructive, high-resolution, and three-dimensional visualization and characterization of cellular metabolic activities. The use of two-photon (2P) excitation of NAD(P)H imaging has been adopted in major tissue types and diseases for non-invasive assessment of oxidative phosphorylation and glucose catabolism in living cells. However, NAD(P)H imaging rarely extends beyond 300 $$\mu$$m due to light scattering and out-of-focus background. In this work, we demonstrate the depth limit of NAD(P)H imaging can be significantly alleviated by adopting three-photon (3P) excitation of NAD(P)H at 1100 nm from a multimode fiber (MMF) source. In label-based imaging, it has been proposed and demonstrated that 3P excitation of fluorescent markers can significantly reduce scattering and enhance signal-to-background ratio (SBR) in deeper tissue. Nevertheless, this has not been successfully extended to label-free NAD(P)H imaging. One pragmatic technical challenge is the lack of existing commercial femtosecond sources near the band of 1100 nm with high peak power and decent beam quality. This work demonstrates the feasibility of using easily accessible MMFs for high-quality deep and dynamic metabolic and structural imaging of living biosystems.
+To achieve deep-tissue imaging in living organisms, two-photon autofluorescence (2PAF) microscopy of NAD(P)H is a powerful technique, offering non-invasive, high-resolution visualization of cellular metabolic processes. However, light scattering traditionally limits the penetration depth of this method to within 200 μm.  We have overcome this limitation by developing a high-power, multimode fiber-based light source that modulates multimodal nonlinear pulse propagation with a compact fiber shaper. This innovative approach extends the imaging depth of 2PAF microscopy to over twice its previous limit. The modular design provides flexibility and facilitates the widespread adoption of this technology for demanding in vivo and in vitro imaging applications, including in areas such as cancer research, immune responses, and tissue engineering.
 
-Prior work, abbreviated as SLAM (simultaneous label-free autofluorescence-multiharmonic) imaging, demonstrated the possibility of using photonic crystal fiber (PCF)-based 1110-nm sources for 3P excitation of NAD(P)H. The introduction of 1110-nm excitation enabled simultaneous acquisition of third harmonic generation (THG) originating at the structural interfaces, together with the 3P excitation of NAD(P)H and 2P excitation of FAD, plus second harmonic generation (SHG) from collagen fibers. The combination of these orthogonal contrasts allowed simultaneous visualization of diverse cellular and extracellular components in the unperturbed tissue microenvironment. Nevertheless, it was not clear how deep SLAM can image into living tissues (the depth was limited to 200 $$\mu$$m due to the energy constraint of excitation pulses) and how widely deployable SLAM could be for the general bioimaging field given the non-trivial PCF and pulse shaper setup. In this work, we demonstrate for the first time that the depth limit of NAD(P)H imaging can be extended to over 700 $$\mu$$m, using living engineered human multicellular microtissues as test samples, and by adopting MMF-based low-repetition-rate high-peak-power 3P excitation of NAD(P)H at 1100 nm, enabling deep and dynamic SLAM (dSLAM) imaging. The high peak power exceeding 0.5 MW at the band of 1100±25 nm was obtained by adaptively modulating multimodal nonlinear pulse propagation with a compact fiber shaper. Furthermore, the 8-fold increase of pulse energy at 1100 nm allows us to capture faster monocyte behaviors in the engineered human multicellular microtissues in vitro. These results and findings represent an important advance towards deeper and faster metabolic and structural imaging of intact living biosystems. We anticipate the flexibility provided by the modular design (step-index (SI) MMF with a slip-on fiber shaper) will allow the proposed imaging methodology to be widely adopted for demanding in vivo and in vitro imaging applications, including cancer research, autoimmune diseases, and tissue engineering.
+## Highlights
 
+- **Source:** A multimode fiber source generating 0.5 MW peak power at 1100±25 nm was achieved by adaptively modulating multimodal nonlinear pulse propagation with a compact fiber shaper.
+- **Imaging:** Three-photon excitation at 1100 nm enabled structural and metabolic imaging at depths exceeding 700 μm in living engineered human multicellular microtissues.
+- **Biology:** Revealed depth-associated redox heterogeneity in the blood-brain barrier microfluidic model and speed-associated redox heterogeneity in monocyte behaviors.
 
 <div class="col-md-12" style="text-align: center;"> 
 {% include figure.html path='assets/img/project/source/concept.png' class="img-fluid z-depth-1 rounded" width="70%"-%}
  </div>
  <div class="caption">
-    Concept of the imaging platform using multimode fiber (MMF) source.
+    Concept of the imaging platform using multimode fiber source.
 </div>
 
-## Technology: High-peak-power multimode fiber source
+## Results
 
-## Mechanism: Three-photon NAD(P)H imaging
+### Beam optimization for high-quality imaging
 
-## Demo 1: Deep metabolic and structural imaging
+<div class="col-md-12" style="text-align: center;"> 
+{% include figure.html path='assets/img/project/source/fibershaping.png' class="img-fluid z-depth-1 rounded" width="100%"-%}
+ </div>
+ <div class="caption">
+    Comparison of images and beam properties acquired before (initial) and after (optimized) optimizing the fiber shaper.
+</div>
 
-## Demo 2: Dynamic metabolic and structural imaging
+### Three-photon NAD(P)H imaging improves depth
+
+<div class="col-md-12" style="text-align: center;"> 
+{% include figure.html path='assets/img/project/source/3P.png' class="img-fluid z-depth-1 rounded" width="100%"-%}
+ </div>
+ <div class="caption">
+    Deep NAD(P)H imaging with 1100 nm MMF source through the entire 720 μm of depth of the 3D microvascular network. Three-photon imaging uses longer excitation wavelength that reduces the scattering in tissue. The higher-order confinement improves the imaging signal-to-background ratio (SBR) deep in tissue.
+</div>
+
+### Deep imaging in blood-brain barrier microfluidic model
+
+<div class="col-md-12" style="text-align: center;"> 
+{% include figure.html path='assets/img/project/source/deepdemo.png' class="img-fluid z-depth-1 rounded" width="100%"-%}
+ </div>
+ <div class="caption">
+    Deep metabolic and structural imaging of the entire 500-μm-deep living blood-brain barrier microfluidic model, comprising vascular endothelial cells, pericytes, and astrocytes. Based on the structural and metabolic features, same type of cells can cluster. Additionally, the ability to image deep into tissue reveals depth-associated redox heterogeneity that can help to understand biology.
+</div>
+
+### Dynamic imaging of monocyte behaviors
+
+<div class="col-md-12" style="text-align: center;"> 
+{% include figure.html path='assets/img/project/source/speeddemo.png' class="img-fluid z-depth-1 rounded" width="70%"-%}
+ </div>
+ <div class="caption">
+    Dynamic metabolic and structural imaging of the monocyte behaviors in the vasculature network, showing relation between metabolic and motility behaviors in individual cells as well as statistics in a large population.
+</div>
