@@ -8,8 +8,6 @@ category: work
 related_publications: han2024system
 ---
 
-This work is in under review in *Nature Communications*.
-
 ## Introduction
 
 Three-dimensional (3D) sub-cellular imaging is highly desirable in biomedical research, as it reveals the intricate spatial organization of organelles, cells, and biological networks. Achieving high-resolution sub-cellular imaging across all three dimensions is crucial for accurately understanding complex biological processes, such as neural circuits, disease pathogenesis, and cellular responses to drugs. However, the fundamental diffraction limit of optical microscopy results in axial resolution that is 2–5 times worse than lateral resolution. This resolution disparity severely hinders isotropic 3D imaging, limiting our ability to faithfully represent the true 3D structure of biological samples and fully realize the potential of 3D imaging in scientific research.
