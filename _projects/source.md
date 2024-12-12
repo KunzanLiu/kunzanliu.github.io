@@ -19,6 +19,13 @@ related_publications: liu2024deep,qiu2024spectral
 
 To achieve deep-tissue imaging in living organisms, two-photon autofluorescence (2PAF) microscopy of NAD(P)H is a powerful technique, offering non-invasive, high-resolution visualization of cellular metabolic processes. However, light scattering traditionally limits the penetration depth of this method to within 200 μm.  We have overcome this limitation by developing a high-power, multimode fiber-based light source that modulates multimodal nonlinear pulse propagation with a compact fiber shaper. This innovative approach extends the imaging depth of 2PAF microscopy to over twice its previous limit. The modular design provides flexibility and facilitates the widespread adoption of this technology for demanding in vivo and in vitro imaging applications, including in areas such as cancer research, immune responses, and tissue engineering.
 
+<div class="col-md-12" style="text-align: center;"> 
+{% include figure.html path='assets/img/project/source/news.png' class="img-fluid z-depth-1 rounded" width="100%"-%}
+ </div>
+ <div class="caption">
+    The research was spotlighted in <a ref="https://news.mit.edu/2024/noninvasive-imaging-method-can-penetrate-deeper-living-tissue-1211">MIT News</a>.
+</div>
+
 ## Highlights
 
 - **Source:** A multimode fiber source generating 0.5 MW peak power at 1100±25 nm was achieved by adaptively modulating multimodal nonlinear pulse propagation with a compact fiber shaper.
