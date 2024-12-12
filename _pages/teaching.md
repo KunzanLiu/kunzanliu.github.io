@@ -14,3 +14,7 @@ nav_order: 4
  </div>
 
 * Committee member of [Rodgers RLE Forum](https://tjr-lab.mit.edu/engagement/forums/)
+
+<div class="col-md-12" style="text-align: center;"> 
+{% include figure.html path='assets/img/RLE.png' class="img-fluid z-depth-1 rounded" width="40%"-%}
+ </div>
