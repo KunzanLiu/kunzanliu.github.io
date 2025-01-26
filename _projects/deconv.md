@@ -3,7 +3,7 @@ layout: page
 title: Isotropic 3D Microscopy
 description: System- and Sample-agnostic Isotropic 3D Microscopy by Weakly Physics-informed, Domain-shift-resistant Axial Deblurring
 img: assets/img/project/deconv/deconv.png
-importance: 3
+importance: 2
 category: work
 related_publications: han2024system
 ---

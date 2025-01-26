@@ -3,7 +3,7 @@ layout: page
 title: Undergrad Research
 description: Dimensionality reduction for RIS-aided wireless communications
 img: assets/img/project/undergrad/undergrad.png
-importance: 4
+importance: 5
 category: work
 related_publications: liu2022compact,liu2022active,zhu2023sensing
 ---

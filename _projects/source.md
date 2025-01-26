@@ -3,7 +3,7 @@ layout: page
 title: Deep and Dynamic Imaging
 description: Deep and dynamic metabolic and structural imaging in living tissues
 img: assets/img/project/source/deep.png
-importance: 2
+importance: 1
 category: work
 related_publications: liu2024deep,qiu2024spectral
 ---

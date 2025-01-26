@@ -26,10 +26,12 @@ nav_order: 5
 
 ## Talks / Conference Publications
 
-* **May 2024** Kunzan Liu, "The Color of Truth: Cellular Dynamics in Intact Tissue", *MIT Koch Institute Image Awards Exhibition*.
-* **Jan 2024** Kunzan Liu, Tong Qiu, Honghao Cao, Linda Griffith, Fan Wang, and Sixian You, "High-Speed Simultaneous Label-Free Autofluorescence-Multiharmonic (hSLAM) Microscopy for Multicellular Dynamics", *SPIE Photonics West*.
-* **Sep 2023** Kunzan Liu, "High-Peak-Power, Visible-to-SWIR, and Tunable Fiber Source for Multiplex Nonlinear Microscopy", *Wellman Optica Student Chapter (invited)*.
-* **Aug 2023** Kunzan Liu, Tong Qiu, Honghao Cao, and Sixian You, "Adaptive Fiber Source for High-Speed Label-Free Multimodal Multiphoton Microscopy", *Optica Imaging Congress*. [[pdf]](https://opg.optica.org/abstract.cfm?uri=ISA-2023-ITu5E.4)
+* **Apr 2025** "Deep and Isotropic Structural and Metabolic Imaging for Nucleolar Dynamics in Living Biosystems", *Optica Biophotonics Congress*.
+* **Apr 2025** "Deep and Dynamic Metabolic and Structural Imaging in Living Tissues", *Optica Biophotonics Congress*.
+* **May 2024** "The Color of Truth: Cellular Dynamics in Intact Tissue", *MIT Koch Institute Image Awards Exhibition*.
+* **Jan 2024** "High-Speed Simultaneous Label-Free Autofluorescence-Multiharmonic (hSLAM) Microscopy for Multicellular Dynamics", *SPIE Photonics West*.
+* **Sep 2023** "High-Peak-Power, Visible-to-SWIR, and Tunable Fiber Source for Multiplex Nonlinear Microscopy", *Wellman Optica Student Chapter (invited)*.
+* **Aug 2023** "Adaptive Fiber Source for High-Speed Label-Free Multimodal Multiphoton Microscopy", *Optica Imaging Congress*.
 
 ## Awards
 
@@ -37,8 +39,7 @@ nav_order: 5
 * 2024, MIT Koch Institute Image Awards
 * 2023, BioMAN Summit Best Student Poster (1st)
 * 2022, MIT Presidential Fellowship
-* 2022, Excellent Bachelor Dissertation of Beijing
-* 2022, Excellent Graduates of Beijing
+* 2022, Bachelor Dissertation Award of Beijing
 * 2022, Grand Prize in Tsinghua Challenge Cup
 * 2021, Tsinghua Grand Scholarship (10 students each year)
 * 2021, SenseTime Scholarship
