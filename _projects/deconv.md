@@ -19,6 +19,13 @@ related_publications: han2024system
 
 Three-dimensional subcellular imaging is essential for biomedical research, but the diffraction limit of optical microscopy compromises axial resolution, hindering accurate three-dimensional structural analysis. This challenge is particularly pronounced in label-free imaging of thick, heterogeneous tissues, where assumptions about data distribution (e.g. sparsity, label-specific distribution, and lateral-axial similarity) and system priors (e.g. independent and identically distributed noise and linear shift-invariant point-spread functions are often invalid). Here, we introduce SSAI-3D, a weakly physics-informed, domain-shift-resistant framework for robust isotropic three-dimensional imaging. SSAI-3D enables robust axial deblurring by generating a diverse, noise-resilient, sample-informed training dataset and sparsely fine-tuning a large pre-trained blind deblurring network. SSAI-3D is applied to label-free nonlinear imaging of living organoids, freshly excised human endometrium tissue, and mouse whisker pads, and further validated in publicly available ground-truth-paired experimental datasets of three-dimensional heterogeneous biological tissues with unknown blurring and noise across different microscopy systems.
 
+<div class="col-md-12" style="text-align: center;"> 
+{% include figure.html path='assets/img/project/deconv/NCHighlight.png' class="img-fluid z-depth-1 rounded" width="100%"-%}
+ </div>
+ <div class="caption">
+    The research was selected in <a ref="https://www.nature.com/collections/idhhgedgig">Nature Communications Editors' Highlights</a>.
+</div>
+
 ## Highlights
 
 - **Imaging:** SSAI-3D as an axial deblurring methodology that is generalizable to diverse 3D imaging systems and 3D biological samples.
