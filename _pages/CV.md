@@ -35,6 +35,7 @@ nav_order: 5
 
 ## Awards
 
+* 2025, MIT Health and Life Sciences Collaborative (HEALS) Fellowship
 * 2024, MathWorks Fellowship
 * 2024, MIT Koch Institute Image Awards
 * 2023, BioMAN Summit Best Student Poster (1st)

@@ -14,4 +14,9 @@ Understanding of complex diseases, therapeutic effects, and biological functions
 {% include figure.html path='assets/img/profiling.png' class="img-fluid z-depth-1 rounded" width="100%" caption="Label-free profiling of whisker pad microenvironment<br>
 (Award-winning image in 2024 Koch Institute Image Awards)" -%}
 
-I collaborate closely with Prof. [Linda Griffith](https://lgglab.mit.edu/) from MIT BE studying human endometrium, Prof. [Eliezer Calo](https://www.calolab.mit.edu/) from MIT Biol studying nucleolus, and Dr. [Michal Tal](https://talresearchgroup.mit.edu/) from MIT BE studying bacteria infection in Lyme disease.
+I have the privilege of collaborating closely with biologists at MIT to explore a wide range of biological questions, spanning from fundamental research to diagnostics and therapeutic strategies. Major collaborations include:
+* Prof. [Linda Griffith](https://lgglab.mit.edu/) (MIT BE), human endometrium and organoids
+* Prof. [Eliezer Calo](https://www.calolab.mit.edu/) (MIT Biol), nucleolus
+* Dr. [Michal Tal](https://talresearchgroup.mit.edu/) (MIT BE), bacterial infection
+* Prof. [Roger Kamm](https://web.mit.edu/meche/mb/) (MIT BE), microfluidic model of blood-brain barrier
+* Prof. [Fan Wang](https://www.wanglab-neuro.org/) (MIT BCS), mouse whisker pad
