@@ -26,6 +26,7 @@ nav_order: 5
 
 ## Talks / Conference Publications
 
+* **Nov 2025** "Deep and Isotropic Metabolic Microscopy for Cellular Dynamics in Living Tissues", *Northeast Symposium on Biomedical Optics (invited)*.
 * **Apr 2025** "Deep and Isotropic Structural and Metabolic Imaging for Nucleolar Dynamics in Living Biosystems", *Optica Biophotonics Congress*.
 * **Apr 2025** "Deep and Dynamic Metabolic and Structural Imaging in Living Tissues", *Optica Biophotonics Congress*.
 * **May 2024** "The Color of Truth: Cellular Dynamics in Intact Tissue", *MIT Koch Institute Image Awards Exhibition*.
