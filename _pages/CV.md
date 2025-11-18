@@ -36,6 +36,7 @@ nav_order: 5
 
 ## Awards
 
+* 2025, Create the Future Design Contest, Honorable Mention (Medical Category)
 * 2025, MIT Health and Life Sciences Collaborative (HEALS) Fellowship
 * 2024, MathWorks Fellowship
 * 2024, MIT Koch Institute Image Awards
