@@ -96,3 +96,19 @@
 "Calo":
   - firstname: ["Eliezer"]
     url: https://www.calolab.mit.edu/
+  
+"Sinha":
+  - firstname: ["Saurabh"]
+    url: https://sites.google.com/view/sinhalaboratorygatech/sinha-s-home?authuser=0
+
+"Kim":
+  - firstname: ["Yeojin"]
+    url: https://yeojinbio.netlify.app/
+
+"Weissbourd":
+  - firstname: ["Brandon"]
+    url: https://www.weissbourdlab.com/
+
+"Kulkarni":
+  - firstname: ["Subhash"]
+    url: https://www.enteric-neuron.com/pi

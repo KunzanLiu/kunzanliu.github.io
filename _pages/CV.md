@@ -26,13 +26,10 @@ nav_order: 5
 
 ## Talks / Conference Publications
 
-* **Nov 2025** "Deep and Isotropic Metabolic Microscopy for Cellular Dynamics in Living Tissues", *Northeast Symposium on Biomedical Optics (invited)*.
-* **Apr 2025** "Deep and Isotropic Structural and Metabolic Imaging for Nucleolar Dynamics in Living Biosystems", *Optica Biophotonics Congress*.
-* **Apr 2025** "Deep and Dynamic Metabolic and Structural Imaging in Living Tissues", *Optica Biophotonics Congress*.
-* **May 2024** "The Color of Truth: Cellular Dynamics in Intact Tissue", *MIT Koch Institute Image Awards Exhibition*.
-* **Jan 2024** "High-Speed Simultaneous Label-Free Autofluorescence-Multiharmonic (hSLAM) Microscopy for Multicellular Dynamics", *SPIE Photonics West*.
-* **Sep 2023** "High-Peak-Power, Visible-to-SWIR, and Tunable Fiber Source for Multiplex Nonlinear Microscopy", *Wellman Optica Student Chapter (invited)*.
-* **Aug 2023** "Adaptive Fiber Source for High-Speed Label-Free Multimodal Multiphoton Microscopy", *Optica Imaging Congress*.
+* **2026** GRS (Optics and Photonics in Medicine and Biology), Optica Biophotonics Congress (*2), MIT HEALS Annual Symposium (invited)
+* **2025** Optica Biophotonics Congress (*2), NESBO (invited)
+* **2024** SPIE Photonics West
+* **2023** Optica Imaging Congress, Optica Student Chapter (invited)
 
 ## Awards
 
