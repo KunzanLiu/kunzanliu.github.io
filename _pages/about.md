@@ -19,7 +19,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a fourth year graduate student at MIT EECS, working at Computational Biophotonics Laboratory advised by Prof. [Sixian You](https://www.rle.mit.edu/yougroup/). My research focuses on developing optical and computational methods in metabolic microscopy to understand multicellular dynamics across scales.
+I am a final year graduate student at MIT EECS, working at Computational Biophotonics Laboratory advised by Prof. [Sixian You](https://www.rle.mit.edu/yougroup/). My research focuses on developing optical and computational methods in metabolic microscopy to understand multicellular dynamics across scales.
 
 I received my M.S. degree in Electrical Engineering and Computer Science from MIT in 2024, where I worked with Prof. [Sixian You](https://www.rle.mit.edu/yougroup/) developing the deep and dynamic metabolic and structural imaging platform.
 Prior to that, I received my B.E. degree in Electronic Engineering from Tsinghua University in 2022, where I worked on dimensionality reduction for wireless communications with Prof. [Linglong Dai](http://oa.ee.tsinghua.edu.cn/dailinglong/).
