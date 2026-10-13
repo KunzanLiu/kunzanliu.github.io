@@ -8,7 +8,7 @@ nav_order: 5
 ---
 
 ## Education
-> **2022-present** Department of Electrical Engineering and Computer Science, MIT\
+> **2022-2027** Department of Electrical Engineering and Computer Science, MIT\
 > Advisor: Prof. [Sixian You](https://www.rle.mit.edu/yougroup/)
 
 > **2022-2024** Department of Electrical Engineering and Computer Science, MIT\
@@ -26,7 +26,8 @@ nav_order: 5
 
 ## Talks / Conference Publications
 
-* **2026** GRS (Optics and Photonics in Medicine and Biology), Optica Biophotonics Congress (*2), MIT HEALS Annual Symposium (invited)
+* **2027** SPIE Photonics West (invited)
+* **2026** Gordon Research Seminar (invited), Optica Biophotonics Congress (*2), MIT HEALS Annual Symposium (invited)
 * **2025** Optica Biophotonics Congress (*2), NESBO (invited)
 * **2024** SPIE Photonics West
 * **2023** Optica Imaging Congress, Optica Student Chapter (invited)
