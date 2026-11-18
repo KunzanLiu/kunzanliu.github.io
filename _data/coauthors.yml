@@ -81,10 +81,6 @@
   - firstname: ["Anastasios"]
     url: https://people.eecs.berkeley.edu/~angelopoulos/
 
-"Han":
-  - firstname: ["Jiashu"]
-    url: https://hjiashu.github.io/
-
 "Tal":
   - firstname: ["Michal Caspi"]
     url: https://talresearchgroup.mit.edu/team
@@ -112,3 +108,19 @@
 "Kulkarni":
   - firstname: ["Subhash"]
     url: https://www.enteric-neuron.com/pi
+
+"Jiang":
+  - firstname: ["Mingze"]
+    url: https://jiangmingze42.github.io/
+
+"Chen":
+  - firstname: ["Haonan"]
+    url: https://haonan16.github.io/
+
+"Li":
+  - firstname: ["Zhiyi"]
+    url: https://sky-lzy.github.io/
+
+"Du":
+  - firstname: ["Yilun"]
+    url: https://yilundu.github.io/
