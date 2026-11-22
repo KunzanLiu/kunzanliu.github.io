@@ -34,6 +34,7 @@ nav_order: 5
 
 ## Awards
 
+* 2027, MIT Koch Institute Image Awards
 * 2026, The Helen Carr Peake and William T. Peake Research Prize
 * 2025, Create the Future Design Contest, Honorable Mention (Medical Category)
 * 2025, MIT Health and Life Sciences Collaborative (HEALS) Fellowship
