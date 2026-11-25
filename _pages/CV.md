@@ -46,7 +46,5 @@ nav_order: 5
 * 2022, Grand Prize in Tsinghua Challenge Cup
 * 2021, Tsinghua Grand Scholarship (10 students each year)
 * 2021, SenseTime Scholarship
-* 2021, National Scholarship
 * 2021, Grand Prize in Beijing Challenge Cup
-* 2020, National Scholarship
-* 2019, National Scholarship
+* 2019-2021, National Scholarship

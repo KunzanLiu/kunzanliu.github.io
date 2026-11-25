@@ -7,9 +7,22 @@ nav: true
 nav_order: 1
 ---
 
-{% include figure.html path='assets/img/system.JPG' class="img-fluid z-depth-1 rounded" width="100%" caption="Visit my system at MIT RLE" -%}
+<div class="row align-items-start">
+    <div class="col-md-6">
+        <p>Imaging provides a window into biology. My research brings together microscopy and machine learning to understand how cells behave and interact within living tissues. I design optics with a particular focus on label-free multiplexed microscopy, together with the associated decoding tools, to provide faster, deeper, and more colorful depictions of multicellular dynamics in native tissues.</p>
+    </div>
+    <div class="col-md-6 mt-3 mt-md-0">
+        {% include figure.html path='assets/img/system.jpg' class="img-fluid z-depth-1 rounded" width="100%" caption="Visit my system at MIT RLE" -%}
+    </div>
+</div>
 
-Understanding of complex diseases, therapeutic effects, and biological functions requires new imaging tools with minimal biological disruption, multiplexed molecular contrast in high volumes and high resolution. I build this label-free nonlinear microscope and work on designing optics and algorithms towards faster, deeper, and more colorful imaging for multicellular dynamics.
+I have the privilege of collaborating closely with researchers at MIT and Harvard to explore a wide range of biological questions, spanning from fundamental research to diagnostics and therapeutic strategies. Major collaborations include:
+* Prof. [Linda Griffith](https://lgglab.mit.edu/) (MIT BE), human endometrium and organoids
+* Prof. [Eliezer Calo](https://www.calolab.mit.edu/) (MIT Biol), nucleolus
+* Prof. [Roger Kamm](https://web.mit.edu/meche/mb/) (MIT BE), microfluidic model of blood-brain barrier
+* Prof. [Fan Wang](https://www.wanglab-neuro.org/) (MIT BCS), mouse whisker pad
+* Prof. [Harikesh Wong](https://hswonglab-ri.mit.edu/) (MIT Biol), immunology
+* Prof. [Yilun Du](https://yilundu.github.io/) (Harvard SEAS), machine learning
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -21,10 +34,3 @@ Understanding of complex diseases, therapeutic effects, and biological functions
 (Award-winning image in 2027 Koch Institute Image Awards)" -%}
     </div>
 </div>
-
-I have the privilege of collaborating closely with biologists at MIT to explore a wide range of biological questions, spanning from fundamental research to diagnostics and therapeutic strategies. Major collaborations include:
-* Prof. [Linda Griffith](https://lgglab.mit.edu/) (MIT BE), human endometrium and organoids
-* Prof. [Eliezer Calo](https://www.calolab.mit.edu/) (MIT Biol), nucleolus
-* Prof. [Roger Kamm](https://web.mit.edu/meche/mb/) (MIT BE), microfluidic model of blood-brain barrier
-* Prof. [Fan Wang](https://www.wanglab-neuro.org/) (MIT BCS), mouse whisker pad
-* Prof. [Harikesh Wong](https://hswonglab-ri.mit.edu/) (MIT Biol), immunology
